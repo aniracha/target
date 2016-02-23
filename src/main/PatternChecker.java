@@ -13,7 +13,7 @@ import java.util.regex.PatternSyntaxException;
 
 public class PatternChecker {
 
-	//Stringbuffer so that we are not creating String objects all the time.
+    //Stringbuffer so that we are not creating String objects all the time.
     static StringBuffer str = new StringBuffer();
     
     //This id for diagnostics.
@@ -27,9 +27,9 @@ public class PatternChecker {
      * Finds the occurrences of the pattern in an input String.
      * 
      * @param input
-     * 			The input String
+     * 		The input String
      * @param searchTerm
-     * 			The pattern to be searched in the input String.
+     * 		The pattern to be searched in the input String.
      * @return The number of times the pattern occurs in the input String.
      * 
      * */
@@ -85,9 +85,9 @@ public class PatternChecker {
      * @param file
      *         The name of the file which comprises of the input String
      * @param input
-     * 			The input String
+     * 	       The input String
      * @param searchTerm
-     * 			The pattern to be searched in the input String.
+     * 		The pattern to be searched in the input String.
      * @return The number of times the pattern occurs in the input String.
      * 
      * */
@@ -113,9 +113,9 @@ public class PatternChecker {
      * Finds the occurrences of the regular expression pattern in an input String
      * 
      * @param input
-     * 			The input String
+     * 		The input String
      * @param regex
-     * 			The regular expression to be searched in the input String.
+     * 		The regular expression to be searched in the input String.
      * @return The number of times the regex occurs in the input String.
      * 
      * */
@@ -148,7 +148,7 @@ public class PatternChecker {
      * Reads the contents of a file and returns the contents.
      * 
      * @param fileName
-     * 			The name of the file.
+     * 		The name of the file.
      * @return The contents of the file as a String
      * 
      * */
@@ -191,7 +191,7 @@ public class PatternChecker {
      * Calculates the time it takes to run a 2M query on the various search methods. 
      * 
      * @param file
-     * 			A String denoting which file to search.
+     * 		A String denoting which file to search.
      * 
      * */
     public static void doDiagnostic(String file) {
@@ -220,11 +220,11 @@ public class PatternChecker {
      * of the search term in the files.
      * 
      * @param listOfFiles
-     * 			An array of Strings containing the list of files.
+     * 		An array of Strings containing the list of files.
      * @param searchTerm
-     * 			The search String
+     * 		The search String
      * @param searchWay 
-     * 			An integer denoting which method should be used to find the pattern.
+     * 		An integer denoting which method should be used to find the pattern.
      * 
      * */
     public static void doEvaluation(String listOfFiles[], String searchTerm, int searchWay) {
