@@ -125,7 +125,7 @@ public class PatternChecker {
         int numberOfOccurances = 0;
         
         try {
-        	Pattern p = Pattern.compile(regex);
+            Pattern p = Pattern.compile(regex);
             StringBuffer substring = new StringBuffer();
             for (int i = 0; i < lengthOfInput; i++) {
             	
