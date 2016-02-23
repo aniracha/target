@@ -192,7 +192,6 @@ public class PatternChecker {
      * 
      * @param file
      * 			A String denoting which file to search.
-     * @param searchTerm
      * 
      * */
     public static void doDiagnostic(String file) {
