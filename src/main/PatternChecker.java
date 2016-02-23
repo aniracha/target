@@ -120,6 +120,7 @@ public class PatternChecker {
      * 
      * */
     public static int findOccurancesUsingRegex(String input, String regex) {
+        
         int lengthOfInput = input.length();
         int numberOfOccurances = 0;
         
