@@ -157,9 +157,7 @@ public class PatternChecker {
         str.setLength(0);
 
         try {
-
                 String currentLIne;
-                    
                 br = new BufferedReader(new FileReader(fileName));
 
                 while ((currentLIne = br.readLine()) != null) {
