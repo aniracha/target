@@ -2,6 +2,8 @@ This file contains information on what the algorithm in this project does and ho
 
 The first section is about the algorithms and how they perform on the different datasets and their runtime complexities.
 
+Section one:
+
 The code in this project searches for a pattern in a text file. Three types of search methods are used :
  the naive way of searching a string within a text file; using regular expressions; using pre-processing hash map.
 
@@ -45,6 +47,8 @@ The code in this project searches for a pattern in a text file. Three types of s
 
  Now coming to the problem of handing large content, we could use map reduce to solve this problem. We could also use distributed hash table.
  If we have very large volume of requests coming in say 5000 requests/sec, one option would be to use a caching mechanism (LRU cache), where we cache the most frequently used words and their occurrences.
+
+Section two:
 
 How to run?
 
