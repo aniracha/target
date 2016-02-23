@@ -55,8 +55,8 @@ How to run?
 Please checkout the project through github. The only file you’ll need is PatternChecker.java.
 Please mention the files you want to search (fully qualified paths) in the  "listOfFiles” array in the “ processInput” method and compile and run the program.
 
-javac PatternCheck.java
-java PatternCheck
+javac PatternChecker.java
+java PatternChecker
 
 OR
 
